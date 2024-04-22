@@ -5,6 +5,6 @@ import pytest
 
 @pytest.mark.jenkins_demo
 def test_push_01():
-    assert True == True
+    assert False == True
 
     # This is a manual test comment.
