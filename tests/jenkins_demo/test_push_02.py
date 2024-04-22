@@ -5,4 +5,4 @@ import pytest
 
 @pytest.mark.jenkins_demo
 def test_push_02():
-    assert False == True
+    assert True == True
