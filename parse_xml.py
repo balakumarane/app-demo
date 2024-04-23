@@ -1,4 +1,4 @@
-from junitparser import JUnitXml
+from parse_xml import JUnitXml
 
 xml = JUnitXml.fromfile('results.xml')
 for suite in xml:
